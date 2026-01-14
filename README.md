@@ -1,4 +1,4 @@
-#BÀI THỰC HÀNH TUẦN 1 – KIỂM THỬ PHẦN MỀM
+# BÀI THỰC HÀNH TUẦN 1 – KIỂM THỬ PHẦN MỀM
 
 Thông tin sinh viên
 
@@ -26,7 +26,7 @@ Truy cập website: https://cantunsee.space/
 Thực hiện các bài kiểm tra phân biệt màu sắc và khả năng nhận diện giao diện
 
 Minh chứng kết quả
-Ảnh chụp màn hình kết quả làm bài trên CantUnsee
+Ảnh chụp màn hình kết quả làm bài trên Cantunsee
 
 Ảnh có dấu hiệu cá nhân (ví dụ: đang đăng nhập Chrome)
 
