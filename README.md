@@ -1,48 +1,36 @@
-# Báo cáo thực hành môn Kiểm thử phần mềm
+BÀI THỰC HÀNH TUẦN 1 – KIỂM THỬ PHẦN MỀM
+Thông tin sinh viên
+Họ và tên: Nguyễn Hồng Nhung
 
-## Thông tin sinh viên
-- Họ tên: Nguyễn Hồng Nhung
-- MSSV: BIT230308
-- Lớp: 23IT5
+MSSV: BIT230308
 
-## Bài thực hành 1: JUnit Testing
+Email: hiennguyen2270@gmail.com
 
-### Kết quả
+Môn học: Kiểm thử phần mềm
+
+Giảng viên: Trương Anh Hoàng
+
+Mục tiêu bài thực hành
+Làm quen với GitHub và cách quản lý bài thực hành bằng kho lưu trữ
+
+Trải nghiệm và đánh giá chất lượng giao diện phần mềm
+
+Nhận thức được vai trò của trải nghiệm người dùng (UX/UI) trong kiểm thử phần mềm
+
+Nội dung thực hành
+Trải nghiệm kiểm thử giao diện với CantUnsee
+Truy cập website: https://cantunsee.space/
+
+Thực hiện các bài kiểm tra phân biệt màu sắc và khả năng nhận diện giao diện
+
+Minh chứng kết quả
+Ảnh chụp màn hình kết quả làm bài trên CantUnsee
+
+Ảnh có dấu hiệu cá nhân (ví dụ: đang đăng nhập Chrome)
+
+Hình ảnh minh chứng:
 ![z7399927139999_37aa280ed691d6c1a0f452a90d62dcb0](https://github.com/user-attachments/assets/ae90a0b2-8b3b-430a-bcc3-a5499d4497a2)
 
-## Bài thực hành 2 
-
-## 1. Mô tả bài toán
-
-Xây dựng lớp `StudentAnalyzer` với 2 phương thức:
-
-- `countExcellentStudents(List<Double> scores)`
-- `calculateValidAverage(List<Double> scores)`
-
-### Yêu cầu:
-- Chỉ xử lý điểm hợp lệ trong khoảng **0 – 10**
-- Bỏ qua điểm âm hoặc > 10
-- Danh sách rỗng → trả về 0
-- Học sinh giỏi: điểm ≥ 8.0
-
----
-
-## 2. Cấu trúc thư mục
-
-unit-test/
-│
-├── src/
-│ └── StudentAnalyzer.java
-│
-├── test/
-│ └── StudentAnalyzerTest.java
-│
-├── images/
-│ ├── structure.png
-│ ├── junit_result.png
-│ └── issues.png
-│
-└── README.md
 
 
 
