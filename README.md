@@ -86,6 +86,130 @@ unit-test/
 
 <img width="1574" height="1045" alt="Screenshot 2026-01-14 140139" src="https://github.com/user-attachments/assets/edd17e4f-19a6-4967-bf00-264be5f0f461" />
 
+# Bài tập thực hành 3 kiểm thử tự động End-to-End với Cypress – Website SauceDemo
+
+## 1. Giới thiệu
+
+Dự án này xây dựng các kịch bản kiểm thử tự động End-to-End cho website mẫu [https://www.saucedemo.com](https://www.saucedemo.com) bằng công cụ **Cypress**.
+
+### Mục tiêu học tập
+
+* Làm quen với kiểm thử tự động End-to-End.
+* Biết cách cài đặt và sử dụng Cypress.
+* Viết test case cho các chức năng phổ biến của website thương mại điện tử.
+* Tổ chức mã nguồn và file kiểm thử trong repository.
+* Thực hành quản lý source code bằng Git và GitHub.
+
+---
+
+## 2. Mô tả bài toán
+
+Website SauceDemo mô phỏng một cửa hàng trực tuyến với các chức năng chính:
+
+* Đăng nhập hệ thống
+* Xem danh sách sản phẩm
+* Thêm và xóa sản phẩm khỏi giỏ hàng
+* Sắp xếp sản phẩm theo giá
+* Thực hiện quy trình thanh toán
+
+Sinh viên cần xây dựng các kịch bản kiểm thử tự động để kiểm tra các chức năng trên.
+
+---
+
+## 3. Các kịch bản kiểm thử
+
+### 3.1 Kiểm thử đăng nhập thành công
+
+* Truy cập trang web
+* Nhập tài khoản hợp lệ: standard_user / secret_sauce
+* Nhấn nút Login
+* Kiểm tra chuyển hướng đến trang danh sách sản phẩm
+
+### 3.2 Kiểm thử đăng nhập thất bại
+
+* Nhập tài khoản không hợp lệ
+* Nhấn nút Login
+* Kiểm tra hiển thị thông báo lỗi
+
+### 3.3 Kiểm thử thêm sản phẩm vào giỏ hàng
+
+* Đăng nhập hệ thống
+* Thêm một sản phẩm vào giỏ hàng
+* Kiểm tra số lượng sản phẩm trong giỏ hàng
+
+### 3.4 Kiểm thử sắp xếp sản phẩm theo giá
+
+* Chọn bộ lọc Price (low to high)
+* Kiểm tra sản phẩm có giá thấp nhất hiển thị đầu tiên
+
+### 3.5 Kiểm thử xóa sản phẩm khỏi giỏ hàng
+
+* Thêm sản phẩm vào giỏ hàng
+* Nhấn Remove
+* Kiểm tra giỏ hàng trống
+
+### 3.6 Kiểm thử quy trình thanh toán
+
+* Thêm sản phẩm vào giỏ hàng
+* Đi tới trang giỏ hàng
+* Thực hiện Checkout
+* Nhập thông tin khách hàng
+* Kiểm tra chuyển đến trang xác nhận thanh toán
+
+---
+
+## 4. Cấu trúc thư mục
+
+```
+cypress-exercise/
+│
+├── cypress/
+│   └── e2e/
+│       ├── login_spec.cy.js
+│       └── cart_spec.cy.js
+│
+├── cypress.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 5. Cài đặt và chạy chương trình
+
+### 5.1 Cài đặt môi trường
+
+* Node.js phiên bản 14 trở lên
+* Trình soạn thảo mã nguồn (Visual Studio Code)
+
+### 5.2 Cài đặt thư viện
+
+```bash
+npm install
+```
+
+### 5.3 Chạy kiểm thử
+
+```bash
+npx cypress open
+```
+
+Sau đó chọn E2E Testing và chạy các file test trong thư mục `cypress/e2e`.
+
+---
+
+## 6. Kết quả
+
+<img width="2564" height="1444" alt="Screenshot 2026-01-26 135314" src="https://github.com/user-attachments/assets/13fc8a97-5c14-479f-8f7a-23a5c4dee2b0" />
+
+---<img width="2564" height="1444" alt="Screenshot 2026-01-26 135205" src="https://github.com/user-attachments/assets/21d2997b-0ac9-4007-8d6a-28e4dd5a956d" />
+
+## 7. Ghi chú
+
+* Website SauceDemo chỉ dùng cho mục đích học tập và thực hành kiểm thử.
+* Không sử dụng cho môi trường thực tế.
+
+
 
 
 
